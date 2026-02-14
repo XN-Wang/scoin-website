@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hong Kong Stablecoin Limited | 香港穩定幣控股有限公司</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-icon">◈</span>
+                <span class="logo-text">HK Stablecoin</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#about" data-en="About Us" data-zh="關於我們">關於我們</a></li>
+                <li><a href="#stablecoins" data-en="Stablecoins" data-zh="穩定幣">穩定幣</a></li>
+                <li><a href="#transparency" data-en="Transparency" data-zh="透明度">透明度</a></li>
+                <li><a href="#partners" data-en="Partners" data-zh="合作夥伴">合作夥伴</a></li>
+                <li><a href="#news" data-en="News" data-zh="新聞公告">新聞公告</a></li>
+                <li><a href="#contact" data-en="Contact" data-zh="聯繫我們">聯繫我們</a></li>
+            </ul>
+            <div class="nav-right">
+                <button class="lang-switch" id="langSwitch">EN</button>
+                <a href="#contact" class="btn btn-primary" data-en="Partner With Us" data-zh="成為合作夥伴">成為合作夥伴</a>
+            </div>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1 data-en="Building Trust in Digital Finance" data-zh="構建數字金融的信任基石">構建數字金融的信任基石</h1>
+            <p class="hero-subtitle" data-en="Hong Kong Stablecoin Limited is building compliant, transparent stablecoin infrastructure through regulated digital assets anchored to USD and HKD." data-zh="香港穩定幣控股有限公司致力於構建合規、透明的穩定幣基礎設施，發行錨定美元及港元的數字資產。">
+                香港穩定幣控股有限公司致力於構建合規、透明的穩定幣基礎設施，發行錨定美元及港元的數字資產。
+            </p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn btn-primary btn-lg" data-en="Partner With Us" data-zh="成為合作夥伴">成為合作夥伴</a>
+                <a href="#stablecoins" class="btn btn-secondary btn-lg" data-en="Learn About Scoin" data-zh="了解 Scoin">了解 Scoin</a>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="coin coin-1">
+                <span>S</span>
+                <small>HKD</small>
+            </div>
+            <div class="coin coin-2">
+                <span>S</span>
+                <small>USD</small>
+            </div>
+            <div class="hero-glow"></div>
+        </div>
+    </section>
+
+    <!-- Key Metrics -->
+    <section class="metrics">
+        <div class="container">
+            <div class="metrics-grid">
+                <div class="metric-card">
+                    <div class="metric-value">$<span id="totalSupply">0</span>M</div>
+                    <div class="metric-label" data-en="Total Supply" data-zh="總發行量">總發行量</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-value"><span id="reserveRatio">100</span>%</div>
+                    <div class="metric-label" data-en="Reserve Ratio" data-zh="儲備率">儲備率</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-value"><span id="holders">0</span>+</div>
+                    <div class="metric-label" data-en="Institutional Holders" data-zh="機構持有者">機構持有者</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-value">ETH</div>
+                    <div class="metric-label" data-en="Blockchain Network" data-zh="區塊鏈網絡">區塊鏈網絡</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-en="About Us" data-zh="關於我們">關於我們</h2>
+                <p data-en="Licensed stablecoin issuer committed to transparency and compliance" data-zh="持牌穩定幣發行商，致力於透明與合規">持牌穩定幣發行商，致力於透明與合規</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3 data-en="Our Mission" data-zh="我們的使命">我們的使命</h3>
+                    <p data-en="Hong Kong Stablecoin Limited is dedicated to building a trusted bridge between traditional finance and the digital asset ecosystem. As a Hong Kong licensed stablecoin issuer, we provide institutional-grade digital currency solutions anchored to fiat currencies." data-zh="香港穩定幣控股有限公司致力於構建傳統金融與數字資產生態之間的信任橋樑。作為香港持牌穩定幣發行商，我們為機構客戶提供錨定法定貨幣的機構級數字貨幣解決方案。">
+                        香港穩定幣控股有限公司致力於構建傳統金融與數字資產生態之間的信任橋樑。作為香港持牌穩定幣發行商，我們為機構客戶提供錨定法定貨幣的機構級數字貨幣解決方案。
+                    </p>
+                    <div class="about-features">
+                        <div class="feature">
+                            <div class="feature-icon">🏛️</div>
+                            <div class="feature-text">
+                                <h4 data-en="Licensed & Regulated" data-zh="持牌監管">持牌監管</h4>
+                                <p data-en="Fully compliant with Hong Kong regulatory requirements" data-zh="完全符合香港監管要求">完全符合香港監管要求</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">🔒</div>
+                            <div class="feature-text">
+                                <h4 data-en="100% Reserved" data-zh="100% 儲備">100% 儲備</h4>
+                                <p data-en="All tokens fully backed by reserve assets" data-zh="所有代幣均由儲備資產全額支持">所有代幣均由儲備資產全額支持</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">📊</div>
+                            <div class="feature-text">
+                                <h4 data-en="Transparent" data-zh="公開透明">公開透明</h4>
+                                <p data-en="Regular audits and real-time on-chain data" data-zh="定期審計與實時鏈上數據">定期審計與實時鏈上數據</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="about-card">
+                        <div class="card-icon">◈</div>
+                        <h4>Hong Kong Stablecoin Limited</h4>
+                        <p>香港穩定幣控股有限公司</p>
+                        <div class="license-badge" data-en="HK Licensed Issuer" data-zh="香港持牌發行商">香港持牌發行商</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stablecoins Section -->
+    <section class="stablecoins" id="stablecoins">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-en="Our Stablecoins" data-zh="我們的穩定幣">我們的穩定幣</h2>
+                <p data-en="Regulated digital assets anchored to fiat currencies" data-zh="錨定法定貨幣的合規數字資產">錨定法定貨幣的合規數字資產</p>
+            </div>
+            <div class="coins-grid">
+                <!-- Scoin-HK -->
+                <div class="coin-card">
+                    <div class="coin-header">
+                        <div class="coin-icon hkd">
+                            <span>S</span>
+                        </div>
+                        <div class="coin-name">
+                            <h3>Scoin-HK</h3>
+                            <span class="coin-anchor" data-en="Anchored to HKD" data-zh="錨定港元">錨定港元</span>
+                        </div>
+                    </div>
+                    <div class="coin-details">
+                        <div class="detail-row">
+                            <span class="detail-label" data-en="Peg Ratio" data-zh="錨定比例">錨定比例</span>
+                            <span class="detail-value">1:1 HKD</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label" data-en="Network" data-zh="網絡">網絡</span>
+                            <span class="detail-value">Ethereum</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label" data-en="Token Standard" data-zh="代幣標準">代幣標準</span>
+                            <span class="detail-value">ERC-20</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label" data-en="Reserve Assets" data-zh="儲備資產">儲備資產</span>
+                            <span class="detail-value" data-en="Cash & Equivalents" data-zh="現金及等價物">現金及等價物</span>
+                        </div>
+                    </div>
+                    <a href="#transparency" class="btn btn-outline" data-en="View Reserve Details" data-zh="查看儲備詳情">查看儲備詳情</a>
+                </div>
+
+                <!-- Scoin-US -->
+                <div class="coin-card">
+                    <div class="coin-header">
+                        <div class="coin-icon usd">
+                            <span>S</span>
+                        </div>
+                        <div class="coin-name">
+                            <h3>Scoin-US</h3>
+                            <span class="coin-anchor" data-en="Anchored to USD" data-zh="錨定美元">錨定美元</span>
+                        </div>
+                    </div>
+                    <div class="coin-details">
+                        <div class="detail-row">
+                            <span class="detail-label" data-en="Peg Ratio" data-zh="錨定比例">錨定比例</span>
+                            <span class="detail-value">1:1 USD</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label" data-en="Network" data-zh="網絡">網絡</span>
+                            <span class="detail-value">Ethereum</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label" data-en="Token Standard" data-zh="代幣標準">代幣標準</span>
+                            <span class="detail-value">ERC-20</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label" data-en="Reserve Assets" data-zh="儲備資產">儲備資產</span>
+                            <span class="detail-value" data-en="Cash & Equivalents" data-zh="現金及等價物">現金及等價物</span>
+                        </div>
+                    </div>
+                    <a href="#transparency" class="btn btn-outline" data-en="View Reserve Details" data-zh="查看儲備詳情">查看儲備詳情</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Transparency Section -->
+    <section class="transparency" id="transparency">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-en="Transparency" data-zh="透明度">透明度</h2>
+                <p data-en="Real-time on-chain data and regular audit reports" data-zh="實時鏈上數據與定期審計報告">實時鏈上數據與定期審計報告</p>
+            </div>
+
+            <!-- On-chain Data -->
+            <div class="transparency-grid">
+                <div class="data-card">
+                    <h3 data-en="Scoin-HK On-Chain Data" data-zh="Scoin-HK 鏈上數據">Scoin-HK 鏈上數據</h3>
+                    <div class="data-rows">
+                        <div class="data-row">
+                            <span class="data-label" data-en="Total Supply" data-zh="總發行量">總發行量</span>
+                            <span class="data-value">50,000,000 HKD</span>
+                        </div>
+                        <div class="data-row">
+                            <span class="data-label" data-en="Circulating Supply" data-zh="流通量">流通量</span>
+                            <span class="data-value">48,500,000 HKD</span>
+                        </div>
+                        <div class="data-row">
+                            <span class="data-label" data-en="Holder Count" data-zh="持有地址數">持有地址數</span>
+                            <span class="data-value">156</span>
+                        </div>
+                        <div class="data-row">
+                            <span class="data-label" data-en="Reserve Ratio" data-zh="儲備率">儲備率</span>
+                            <span class="data-value highlight">100.5%</span>
+                        </div>
+                        <div class="data-row">
+                            <span class="data-label" data-en="Contract Address" data-zh="合約地址">合約地址</span>
+                            <span class="data-value address">0x1234...abcd <a href="#" class="etherscan-link">↗</a></span>
+                        </div>
+                    </div>
+                    <div class="data-updated" data-en="Last updated: 2026-01-29 14:30 UTC" data-zh="最後更新: 2026-01-29 14:30 UTC">最後更新: 2026-01-29 14:30 UTC</div>
+                </div>
+
+                <div class="data-card">
+                    <h3 data-en="Scoin-US On-Chain Data" data-zh="Scoin-US 鏈上數據">Scoin-US 鏈上數據</h3>
+                    <div class="data-rows">
+                        <div class="data-row">
+                            <span class="data-label" data-en="Total Supply" data-zh="總發行量">總發行量</span>
+                            <span class="data-value">10,000,000 USD</span>
+                        </div>
+                        <div class="data-row">
+                            <span class="data-label" data-en="Circulating Supply" data-zh="流通量">流通量</span>
+                            <span class="data-value">9,800,000 USD</span>
+                        </div>
+                        <div class="data-row">
+                            <span class="data-label" data-en="Holder Count" data-zh="持有地址數">持有地址數</span>
+                            <span class="data-value">89</span>
+                        </div>
+                        <div class="data-row">
+                            <span class="data-label" data-en="Reserve Ratio" data-zh="儲備率">儲備率</span>
+                            <span class="data-value highlight">100.3%</span>
+                        </div>
+                        <div class="data-row">
+                            <span class="data-label" data-en="Contract Address" data-zh="合約地址">合約地址</span>
+                            <span class="data-value address">0x5678...efgh <a href="#" class="etherscan-link">↗</a></span>
+                        </div>
+                    </div>
+                    <div class="data-updated" data-en="Last updated: 2026-01-29 14:30 UTC" data-zh="最後更新: 2026-01-29 14:30 UTC">最後更新: 2026-01-29 14:30 UTC</div>
+                </div>
+            </div>
+
+            <!-- Reports -->
+            <div class="reports-section">
+                <h3 data-en="Reports & Attestations" data-zh="報告與證明">報告與證明</h3>
+                <div class="reports-grid">
+                    <div class="report-card featured">
+                        <div class="report-icon">📘</div>
+                        <div class="report-info">
+                            <h4 data-en="Whitepaper" data-zh="白皮書">白皮書</h4>
+                            <p data-en="Technical & Economic Design" data-zh="技術與經濟模型設計">技術與經濟模型設計</p>
+                        </div>
+                        <a href="#" class="btn btn-sm btn-primary" data-en="Download PDF" data-zh="下載 PDF">下載 PDF</a>
+                    </div>
+                    <div class="report-card">
+                        <div class="report-icon">📄</div>
+                        <div class="report-info">
+                            <h4 data-en="Reserve Attestation Report" data-zh="儲備證明報告">儲備證明報告</h4>
+                            <p data-en="January 2026" data-zh="2026年1月">2026年1月</p>
+                        </div>
+                        <a href="#" class="btn btn-sm" data-en="Download PDF" data-zh="下載 PDF">下載 PDF</a>
+                    </div>
+                    <div class="report-card">
+                        <div class="report-icon">📋</div>
+                        <div class="report-info">
+                            <h4 data-en="Independent Audit Report" data-zh="獨立審計報告">獨立審計報告</h4>
+                            <p data-en="Q4 2025" data-zh="2025年第四季度">2025年第四季度</p>
+                        </div>
+                        <a href="#" class="btn btn-sm" data-en="Download PDF" data-zh="下載 PDF">下載 PDF</a>
+                    </div>
+                    <div class="report-card">
+                        <div class="report-icon">🔐</div>
+                        <div class="report-info">
+                            <h4 data-en="Smart Contract Audit" data-zh="智能合約審計">智能合約審計</h4>
+                            <p data-en="By CertiK" data-zh="由 CertiK 審計">由 CertiK 審計</p>
+                        </div>
+                        <a href="#" class="btn btn-sm" data-en="Download PDF" data-zh="下載 PDF">下載 PDF</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Partners Section -->
+    <section class="partners" id="partners">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-en="Our Partners" data-zh="合作夥伴">合作夥伴</h2>
+                <p data-en="Working with trusted institutions to ensure security and compliance" data-zh="與信賴的機構合作，確保安全與合規">與信賴的機構合作，確保安全與合規</p>
+            </div>
+            <div class="partners-categories">
+                <div class="partner-category">
+                    <h3 data-en="Custodian Banks" data-zh="托管銀行">托管銀行</h3>
+                    <div class="partner-logos">
+                        <div class="partner-logo placeholder" data-en="Bank Partner 1" data-zh="銀行合作夥伴 1">銀行合作夥伴 1</div>
+                        <div class="partner-logo placeholder" data-en="Bank Partner 2" data-zh="銀行合作夥伴 2">銀行合作夥伴 2</div>
+                    </div>
+                </div>
+                <div class="partner-category">
+                    <h3 data-en="Auditors" data-zh="審計機構">審計機構</h3>
+                    <div class="partner-logos">
+                        <div class="partner-logo placeholder" data-en="Audit Partner" data-zh="審計合作夥伴">審計合作夥伴</div>
+                    </div>
+                </div>
+                <div class="partner-category">
+                    <h3 data-en="Ecosystem Partners" data-zh="生態合作夥伴">生態合作夥伴</h3>
+                    <div class="partner-logos">
+                        <div class="partner-logo placeholder" data-en="Partner 1" data-zh="合作夥伴 1">合作夥伴 1</div>
+                        <div class="partner-logo placeholder" data-en="Partner 2" data-zh="合作夥伴 2">合作夥伴 2</div>
+                        <div class="partner-logo placeholder" data-en="Partner 3" data-zh="合作夥伴 3">合作夥伴 3</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- News Section -->
+    <section class="news" id="news">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-en="News & Announcements" data-zh="新聞公告">新聞公告</h2>
+                <p data-en="Latest updates from Hong Kong Stablecoin" data-zh="香港穩定幣最新動態">香港穩定幣最新動態</p>
+            </div>
+            <div class="news-grid">
+                <article class="news-card">
+                    <div class="news-date">2026-01-15</div>
+                    <h3 data-en="Hong Kong Stablecoin Receives Regulatory Approval" data-zh="香港穩定幣獲得監管批准">香港穩定幣獲得監管批准</h3>
+                    <p data-en="We are pleased to announce that Hong Kong Stablecoin Limited has received regulatory approval from the Hong Kong Monetary Authority..." data-zh="我們很高興地宣布，香港穩定幣控股有限公司已獲得香港金融管理局的監管批准...">
+                        我們很高興地宣布，香港穩定幣控股有限公司已獲得香港金融管理局的監管批准...
+                    </p>
+                    <a href="#" class="news-link" data-en="Read more →" data-zh="閱讀更多 →">閱讀更多 →</a>
+                </article>
+                <article class="news-card">
+                    <div class="news-date">2026-01-10</div>
+                    <h3 data-en="Partnership Announcement with Major Custodian" data-zh="與主要托管機構建立合作關係">與主要托管機構建立合作關係</h3>
+                    <p data-en="Hong Kong Stablecoin announces strategic partnership with leading financial institution for custody services..." data-zh="香港穩定幣宣布與領先金融機構建立戰略合作夥伴關係，提供托管服務...">
+                        香港穩定幣宣布與領先金融機構建立戰略合作夥伴關係，提供托管服務...
+                    </p>
+                    <a href="#" class="news-link" data-en="Read more →" data-zh="閱讀更多 →">閱讀更多 →</a>
+                </article>
+                <article class="news-card">
+                    <div class="news-date">2026-01-05</div>
+                    <h3 data-en="Scoin-HK and Scoin-US Launch Announcement" data-zh="Scoin-HK 及 Scoin-US 發布公告">Scoin-HK 及 Scoin-US 發布公告</h3>
+                    <p data-en="We are excited to announce the upcoming launch of our two stablecoins: Scoin-HK (anchored to HKD) and Scoin-US (anchored to USD)..." data-zh="我們很高興地宣布即將推出兩款穩定幣：Scoin-HK（錨定港元）及 Scoin-US（錨定美元）...">
+                        我們很高興地宣布即將推出兩款穩定幣：Scoin-HK（錨定港元）及 Scoin-US（錨定美元）...
+                    </p>
+                    <a href="#" class="news-link" data-en="Read more →" data-zh="閱讀更多 →">閱讀更多 →</a>
+                </article>
+            </div>
+            <div class="news-more">
+                <a href="#" class="btn btn-outline" data-en="View All News" data-zh="查看所有新聞">查看所有新聞</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-en="Contact Us" data-zh="聯繫我們">聯繫我們</h2>
+                <p data-en="Get in touch for institutional partnerships and inquiries" data-zh="機構合作與業務諮詢">機構合作與業務諮詢</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <div class="info-icon">📧</div>
+                        <div class="info-text">
+                            <h4 data-en="Email" data-zh="電郵">電郵</h4>
+                            <p>contact@hkstablecoin.com</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">📍</div>
+                        <div class="info-text">
+                            <h4 data-en="Office" data-zh="辦公地址">辦公地址</h4>
+                            <p data-en="Central, Hong Kong" data-zh="香港中環">香港中環</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">💼</div>
+                        <div class="info-text">
+                            <h4 data-en="Business Hours" data-zh="辦公時間">辦公時間</h4>
+                            <p data-en="Mon - Fri, 9:00 - 18:00 HKT" data-zh="週一至週五 9:00 - 18:00 (香港時間)">週一至週五 9:00 - 18:00 (香港時間)</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="company" data-en="Company Name" data-zh="公司名稱">公司名稱</label>
+                        <input type="text" id="company" name="company" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="name" data-en="Contact Person" data-zh="聯繫人">聯繫人</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" data-en="Email" data-zh="電郵">電郵</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="inquiry" data-en="Inquiry Type" data-zh="諮詢類型">諮詢類型</label>
+                        <select id="inquiry" name="inquiry">
+                            <option value="partnership" data-en="Partnership Inquiry" data-zh="合作諮詢">合作諮詢</option>
+                            <option value="integration" data-en="Integration Support" data-zh="接入支持">接入支持</option>
+                            <option value="other" data-en="Other" data-zh="其他">其他</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message" data-en="Message" data-zh="留言">留言</label>
+                        <textarea id="message" name="message" rows="4"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full" data-en="Submit Inquiry" data-zh="提交諮詢">提交諮詢</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <span class="logo-icon">◈</span>
+                        <span class="logo-text">HK Stablecoin</span>
+                    </div>
+                    <p data-en="Hong Kong Stablecoin Limited" data-zh="香港穩定幣控股有限公司">香港穩定幣控股有限公司</p>
+                    <p class="footer-license" data-en="Licensed Stablecoin Issuer in Hong Kong" data-zh="香港持牌穩定幣發行商">香港持牌穩定幣發行商</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4 data-en="Products" data-zh="產品">產品</h4>
+                        <ul>
+                            <li><a href="#stablecoins">Scoin-HK</a></li>
+                            <li><a href="#stablecoins">Scoin-US</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4 data-en="Company" data-zh="公司">公司</h4>
+                        <ul>
+                            <li><a href="#about" data-en="About Us" data-zh="關於我們">關於我們</a></li>
+                            <li><a href="#news" data-en="News" data-zh="新聞">新聞</a></li>
+                            <li><a href="#contact" data-en="Contact" data-zh="聯繫">聯繫</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4 data-en="Transparency" data-zh="透明度">透明度</h4>
+                        <ul>
+                            <li><a href="#transparency" data-en="On-Chain Data" data-zh="鏈上數據">鏈上數據</a></li>
+                            <li><a href="#transparency" data-en="Audit Reports" data-zh="審計報告">審計報告</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p data-en="© 2026 Hong Kong Stablecoin Limited. All rights reserved." data-zh="© 2026 香港穩定幣控股有限公司 版權所有">© 2026 香港穩定幣控股有限公司 版權所有</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
